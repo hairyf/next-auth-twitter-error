@@ -52,7 +52,7 @@ import GitHub from "next-auth/providers/github"
 // import Todoist from "next-auth/providers/todoist"
 // import Trakt from "next-auth/providers/trakt"
 // import Twitch from "next-auth/providers/twitch"
-// import Twitter from "next-auth/providers/twitter"
+import Twitter from "next-auth/providers/twitter"
 // import UnitedEffects from "next-auth/providers/united-effects"
 // import Vk from "next-auth/providers/vk"
 // import Wikimedia from "next-auth/providers/wikimedia"
@@ -122,7 +122,7 @@ export const config = {
     // Todoist,
     // Trakt,
     // Twitch,
-    // Twitter,
+    Twitter,
     // UnitedEffects,
     // Vk,
     // Wikimedia,
